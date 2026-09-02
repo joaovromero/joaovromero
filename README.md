@@ -72,8 +72,8 @@ alt="Carrossel animado de linguagens e tecnologias"
 <div align="center">
 
 <img 
-src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2200&pause=700&color=C084FC&center=true&vCenter=true&width=620&lines=Desenvolvimento+Web;Desenvolvimento+FullStack;L%C3%B3gica+de+Programa%C3%A7%C3%A3o;Boas+pr%C3%A1ticas+de+desenvolvimento;Novas+tecnologias" 
-alt="Currently studying"
+src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2400&pause=800&color=C084FC&center=true&vCenter=true&width=750&lines=Ci%C3%AAncias+da+Computa%C3%A7%C3%A3o;Desenvolvimento+Web;Desenvolvimento+FullStack;L%C3%B3gica+e+Fundamentos+de+Programa%C3%A7%C3%A3o;Boas+Pr%C3%A1ticas+de+Desenvolvimento;Estudo+e+Explora%C3%A7%C3%A3o+de+Novas+Tecnologias" 
+alt="Áreas de estudo e desenvolvimento"
 />
 
 </div>
