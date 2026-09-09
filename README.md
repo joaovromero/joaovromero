@@ -6,7 +6,7 @@
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/header-mobile.svg">
-  <img src="./assets/header.svg" width="100%" alt="João Victor Gobi Romero — Desenvolvedor FullStack. Tecnologia e aprendizado contínuo.">
+  <img src="./assets/header.svg" width="100%" alt="João Victor Gobi Romero — Desenvolvedor. Tecnologia e aprendizado contínuo.">
 </picture>
 
 <p align="center">
