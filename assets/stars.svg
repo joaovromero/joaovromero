@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="46" viewBox="0 0 180 46" role="img" aria-labelledby="title desc">
+  <title id="title">Estrelas</title>
+  <desc id="desc">Design do perfil de João Victor Gobi Romero. Animações decorativas em SVG, com suporte a movimento reduzido.</desc>
+  <defs></defs>
+  <style>
+    text { font-family: 'Segoe UI',Arial,'Liberation Sans',sans-serif; }
+    .mono { font-family: 'Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace; }
+    
+  </style>
+  <rect x="0.7" y="0.7" width="178.6" height="44.6" rx="14" fill="#182438" stroke="#314159" /><path d="M25 12L28 19L36 20L30 25L32 33L25 29L18 33L20 25L14 20L22 19Z" fill="none" stroke="#9AB8EF" stroke-width="1.5" stroke-linejoin="round"/><text x="46" y="29" font-size="15" font-weight="600" fill="#C9D8EE" >Estrelas</text><path d="M158 28L166 20M159 20H166V27" stroke="#C9D8EE" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="134" viewBox="0 0 1000 134" role="img" aria-labelledby="title desc">
+  <title id="title">Obrigado por visitar meu perfil. João Victor Gobi Romero.</title>
+  <desc id="desc">Design do perfil de João Victor Gobi Romero. Animações decorativas em SVG, com suporte a movimento reduzido.</desc>
+  <defs></defs>
+  <style>
+    text { font-family: 'Segoe UI',Arial,'Liberation Sans',sans-serif; }
+    .mono { font-family: 'Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace; }
+    
+  @keyframes hover { 0%,100% {transform:translateY(0)} 50% {transform:translateY(-7px)} }
+  @keyframes glow { 0%,100% {opacity:.4} 50% {opacity:1} }
+  @keyframes blink { 0%,44%,100% {opacity:1} 45%,80% {opacity:.12} }
+  @keyframes signal { 0% {stroke-dashoffset:160} 100% {stroke-dashoffset:0} }
+  .floating { animation:hover 6s ease-in-out infinite; }
+  .floating-late { animation:hover 7.5s ease-in-out -2s infinite; }
+  .glow { animation:glow 4s ease-in-out infinite; }
+  .cursor { animation:blink 1.25s step-end infinite; }
+  .signal { stroke-dasharray:12 68; animation:signal 8s linear infinite; }
+  @media (prefers-reduced-motion:reduce) {
+    .floating,.floating-late,.glow,.cursor,.signal {animation:none!important}
+  }
+
+  </style>
+  <rect x="0.7" y="0.7" width="998.6" height="132.6" rx="26" fill="#152536" stroke="#2A4656" /><text x="38" y="58" font-size="29" font-weight="600" fill="#F2F6FC" letter-spacing="-.5">Obrigado por visitar meu perfil.</text><text x="38" y="96" font-size="19" font-weight="400" fill="#B3C0D5" >João Victor Gobi Romero</text><text x="956" y="77" font-size="35" font-weight="600" fill="#00E5C3" text-anchor="end" class="mono">&lt;/&gt;</text><rect x="38" y="118" width="80" height="2" rx="1" fill="#00E5C3" class="glow"/>
+</svg>

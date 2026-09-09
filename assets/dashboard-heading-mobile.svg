@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="520" height="95" viewBox="0 0 520 95" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Dashboard</title>
+  <desc id="desc">Design do perfil de João Victor Gobi Romero. Animações decorativas em SVG, com suporte a movimento reduzido.</desc>
+  <defs></defs>
+  <style>
+    text { font-family: 'Segoe UI',Arial,'Liberation Sans',sans-serif; }
+    .mono { font-family: 'Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace; }
+    
+  </style>
+  <rect x="0.7" y="0.7" width="518.6" height="93" rx="24" fill="#101827" stroke="#29364E" /><text x="30" y="34" font-size="14" font-weight="600" fill="#00E5C3" letter-spacing="2" class="mono">04 / NO GITHUB</text><text x="30" y="73" font-size="29" font-weight="600" fill="#F2F6FC" letter-spacing="-.7">GitHub Dashboard</text>
+</svg>

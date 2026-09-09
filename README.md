@@ -1,2 +1,77 @@
-<!-- Envie este README e a pasta assets para a raiz de joaovromero/joaovromero. -->
-<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:292950,35:2E2E5E,70:2563EB,100:00E5C3&height=210&section=header&text=🧑‍💻Jo%C3%A3o%20Victor%20Gobi%20Romero&fontSize=38&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Desenvolvedor%20FullStack&descAlignY=58&descSize=20" width="100%" /> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2600&pause=900&color=00E5C3&center=true&vCenter=true&width=780&lines=Desenvolvedor+FullStack;Ci%C3%AAncias+da+Computa%C3%A7%C3%A3o;Desenvolvimento+de+Software;Aprendizado+Cont%C3%ADnuo" alt="Apresentação" /> </div> --- <table width="100%"> <tr> <td width="58%" valign="top"> ## 🥸 Perfil Tenho **18 anos**, sou natural de **São Paulo** e atualmente curso **Ciências da Computação na UNICID**. Sou apaixonado por tecnologia e busco desenvolver continuamente meus conhecimentos na área. Tenho interesse em **desenvolvimento de software** e procuro ampliar minhas habilidades por meio de estudos e novos projetos. </td> <td width="42%" valign="top"> ## 🌐 Conecte-se comigo <div align="center"> <a href="https://www.linkedin.com/in/joão-victor-gobi-romero-09a2642a8"> <img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-00CDB3?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=292950" alt="LinkedIn" /> </a> <br><br> <a href="https://github.com/joaovromero?tab=followers"> <img src="https://custom-icon-badges.demolab.com/github/followers/joaovromero?color=2563EB&labelColor=292950&style=for-the-badge&logo=github&label=Seguidores&logoColor=white" alt="Seguidores" /> </a> <br><br> <a href="https://github.com/joaovromero?tab=repositories&sort=stargazers"> <img src="https://custom-icon-badges.demolab.com/github/stars/joaovromero?color=8B5CF6&style=for-the-badge&labelColor=292950&logo=star&label=Estrelas" alt="Estrelas" /> </a> </div> </td> </tr> </table> --- ## 💻 Linguagens & Tecnologias <div align="center"> <img src="./tech-carousel.svg" width="100%" alt="Carrossel animado de linguagens e tecnologias" /> </div> --- ## 🚀 Atualmente estudando <div align="center"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2400&pause=800&color=00E5C3&center=true&vCenter=true&width=820&lines=Ci%C3%AAncias+da+Computa%C3%A7%C3%A3o;Desenvolvimento+Web;Desenvolvimento+FullStack;L%C3%B3gica+e+Fundamentos+de+Programa%C3%A7%C3%A3o;Boas+Pr%C3%A1ticas+de+Desenvolvimento;Novas+Tecnologias" alt="Atualmente estudando" /> </div> --- ## 📊 GitHub Dashboard <div align="center"> <img height="180" src="https://github-readme-stats.vercel.app/api?username=joaovromero&show_icons=true&include_all_commits=true&locale=pt-br&hide_border=true&border_radius=18&bg_color=292950&title_color=FFFFFF&text_color=CBD5E1&icon_color=00E5C3" alt="Estatísticas do GitHub" /> <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaovromero&layout=compact&custom_title=Tecnologias&langs_count=9&hide_border=true&border_radius=18&bg_color=292950&title_color=FFFFFF&text_color=CBD5E1" alt="Tecnologias mais utilizadas" /> </div> --- ## 📈 Atividade <div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=joaovromero&bg_color=292950&color=FFFFFF&line=00E5C3&point=2563EB&area_color=2563EB&area=true&hide_border=true&custom_title=Atividade%20no%20GitHub" width="100%" alt="Gráfico de atividade" /> </div> --- ## 🐍 Contribuições <div align="center"> <img src="https://raw.githubusercontent.com/joaovromero/joaovromero/output/github-contribution-grid-snake-dark.svg" alt="Animação das contribuições" /> </div> --- ## 🏆 GitHub Trophies <div align="center"> <img src="https://github-profile-trophy.vercel.app/?username=joaovromero&theme=darkhub&no-frame=true&no-bg=true&margin-w=10&row=1" width="100%" alt="GitHub Trophies" /> </div> --- <div align="center"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2600&pause=1200&color=00E5C3&center=true&vCenter=true&width=600&lines=Obrigado+por+visitar+meu+perfil!" alt="Mensagem final" /> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:292950,35:2E2E5E,70:2563EB,100:00E5C3&height=120&section=footer" width="100%" /> </div>
+<!--
+  Perfil: joaovromero/joaovromero
+  Coloque este README.md e a pasta assets na raiz do repositório público.
+  As imagens SVG contêm as animações. Não cole o SVG diretamente no Markdown.
+-->
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/header-mobile.svg">
+  <img src="./assets/header.svg" width="100%" alt="João Victor Gobi Romero — Desenvolvedor FullStack. Tecnologia e aprendizado contínuo.">
+</picture>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-gobi-romero-09a2642a8"><img src="./assets/linkedin.svg" width="164" height="42" alt="Conecte-se comigo no LinkedIn"></a>
+  <a href="https://github.com/joaovromero?tab=repositories"><img src="./assets/repositories.svg" width="164" height="42" alt="Veja meus repositórios"></a>
+  <a href="https://github.com/joaovromero?tab=followers"><img src="./assets/followers.svg" width="164" height="42" alt="Veja meus seguidores"></a>
+  <a href="https://github.com/joaovromero?tab=repositories&amp;sort=stargazers"><img src="./assets/stars.svg" width="164" height="42" alt="Veja meus repositórios por estrelas"></a>
+</p>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/profile-mobile.svg">
+  <img src="./assets/profile.svg" width="100%" alt="Tenho 18 anos, sou natural de São Paulo e atualmente curso Ciências da Computação na UNICID. Sou apaixonado por tecnologia e busco desenvolver continuamente meus conhecimentos na área. Tenho interesse em desenvolvimento de software e procuro ampliar minhas habilidades por meio de estudos e novos projetos.">
+</picture>
+
+<br>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/tech-carousel-mobile.svg">
+  <img src="./assets/tech-carousel.svg" width="100%" alt="Linguagens e tecnologias: HTML5, CSS3, JavaScript, C#, ASP.NET, Three.js e SVG.">
+</picture>
+
+<br>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/studying-mobile.svg">
+  <img src="./assets/studying.svg" width="100%" alt="Atualmente estudando: Ciências da Computação, Desenvolvimento Web, Desenvolvimento FullStack, Lógica e Fundamentos de Programação, Boas Práticas de Desenvolvimento, Novas Tecnologias.">
+</picture>
+
+<details>
+  <summary>Ver todos os temas de estudo</summary>
+
+- Ciências da Computação
+- Desenvolvimento Web
+- Desenvolvimento FullStack
+- Lógica e Fundamentos de Programação
+- Boas Práticas de Desenvolvimento
+- Novas Tecnologias
+
+</details>
+
+<br>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/dashboard-heading-mobile.svg">
+  <img src="./assets/dashboard-heading.svg" width="100%" alt="GitHub Dashboard">
+</picture>
+
+<!-- Os cartões abaixo são gerados por um serviço externo e podem sofrer limites de uso. -->
+<p align="center">
+  <a href="https://github.com/joaovromero">
+    <img width="440" src="https://github-stats-extended.vercel.app/api?username=joaovromero&amp;show_icons=true&amp;include_all_commits=true&amp;locale=pt-br&amp;hide_border=false&amp;border_color=29364E&amp;border_radius=22&amp;bg_color=101827&amp;title_color=00E5C3&amp;text_color=B3C0D5&amp;icon_color=538BFF&amp;custom_title=Minha%20atividade%20no%20GitHub" alt="Estatísticas públicas do GitHub de joaovromero">
+  </a>
+  <a href="https://github.com/joaovromero?tab=repositories">
+    <img width="350" src="https://github-stats-extended.vercel.app/api/top-langs/?username=joaovromero&amp;layout=compact&amp;custom_title=Linguagens%20nos%20reposit%C3%B3rios&amp;langs_count=8&amp;hide_border=false&amp;border_color=29364E&amp;border_radius=22&amp;bg_color=101827&amp;title_color=00E5C3&amp;text_color=B3C0D5&amp;card_width=350" alt="Distribuição das linguagens nos repositórios públicos de joaovromero">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/joaovromero?tab=followers"><img src="https://img.shields.io/github/followers/joaovromero?style=flat&amp;label=Seguidores&amp;labelColor=182438&amp;color=00CDB3" alt="Total de seguidores"></a>
+  <a href="https://github.com/joaovromero?tab=repositories&amp;sort=stargazers"><img src="https://img.shields.io/github/stars/joaovromero?style=flat&amp;label=Estrelas&amp;labelColor=182438&amp;color=538BFF" alt="Total de estrelas"></a>
+</p>
+
+<br>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/footer-mobile.svg">
+  <img src="./assets/footer.svg" width="100%" alt="Obrigado por visitar meu perfil. João Victor Gobi Romero.">
+</picture>

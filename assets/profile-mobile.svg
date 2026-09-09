@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="520" height="596" viewBox="0 0 520 596" role="img" aria-labelledby="title desc">
+  <title id="title">Perfil: 18 anos, natural de São Paulo, estudante de Ciências da Computação na UNICID.</title>
+  <desc id="desc">Design do perfil de João Victor Gobi Romero. Animações decorativas em SVG, com suporte a movimento reduzido.</desc>
+  <defs></defs>
+  <style>
+    text { font-family: 'Segoe UI',Arial,'Liberation Sans',sans-serif; }
+    .mono { font-family: 'Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace; }
+    
+  @keyframes hover { 0%,100% {transform:translateY(0)} 50% {transform:translateY(-7px)} }
+  @keyframes glow { 0%,100% {opacity:.4} 50% {opacity:1} }
+  @keyframes blink { 0%,44%,100% {opacity:1} 45%,80% {opacity:.12} }
+  @keyframes signal { 0% {stroke-dashoffset:160} 100% {stroke-dashoffset:0} }
+  .floating { animation:hover 6s ease-in-out infinite; }
+  .floating-late { animation:hover 7.5s ease-in-out -2s infinite; }
+  .glow { animation:glow 4s ease-in-out infinite; }
+  .cursor { animation:blink 1.25s step-end infinite; }
+  .signal { stroke-dasharray:12 68; animation:signal 8s linear infinite; }
+  @media (prefers-reduced-motion:reduce) {
+    .floating,.floating-late,.glow,.cursor,.signal {animation:none!important}
+  }
+
+  </style>
+  <rect x="0.7" y="0.7" width="518.6" height="362.6" rx="26" fill="#101827" stroke="#29364E" /><text x="30" y="43" font-size="14" font-weight="600" fill="#00E5C3" letter-spacing="2" class="mono">01 / PERFIL</text><text x="30" y="90" font-size="29" font-weight="600" fill="#F2F6FC" letter-spacing="-.7">Tecnologia e novos projetos.</text><text x="30" y="129" font-size="23" font-weight="500" fill="#91ADDF" >18 anos · Natural de São Paulo</text><text x="30" y="175" font-size="23" font-weight="400" fill="#B3C0D5" >Sou apaixonado por tecnologia e busco</text><text x="30" y="204" font-size="23" font-weight="400" fill="#B3C0D5" >desenvolver continuamente meus</text><text x="30" y="233" font-size="23" font-weight="400" fill="#B3C0D5" >conhecimentos na área. Tenho interesse</text><text x="30" y="262" font-size="23" font-weight="400" fill="#B3C0D5" >em desenvolvimento de software e</text><text x="30" y="291" font-size="23" font-weight="400" fill="#B3C0D5" >procuro ampliar minhas habilidades por</text><text x="30" y="320" font-size="23" font-weight="400" fill="#B3C0D5" >meio de estudos e novos projetos.</text><rect x="0.7" y="380.7" width="518.6" height="214.6" rx="26" fill="#18243A" stroke="#29364E" /><path d="M30 409h26v22h-26z M43 409v22" fill="none" stroke="#00E5C3" stroke-width="1.8" stroke-linejoin="round"/><text x="70" y="426" font-size="14" font-weight="600" fill="#00E5C3" letter-spacing="2" class="mono">FORMAÇÃO</text><text x="30" y="478" font-size="30" font-weight="600" fill="#F2F6FC" letter-spacing="-.6">Ciências da</text><text x="30" y="517" font-size="30" font-weight="600" fill="#F2F6FC" letter-spacing="-.6">Computação</text><text x="30" y="556" font-size="22" font-weight="600" fill="#A6BEF2" >UNICID</text><rect x="284" y="537" width="205" height="34" rx="17" fill="#19383E" stroke="#2A5457" /><text x="386.5" y="560" font-size="17" font-weight="500" fill="#91EBD9" text-anchor="middle">Em andamento</text>
+</svg>

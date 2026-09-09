@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="520" height="640" viewBox="0 0 520 640" role="img" aria-labelledby="title desc">
+  <title id="title">João Victor Gobi Romero — Desenvolvedor FullStack</title>
+  <desc id="desc">Design do perfil de João Victor Gobi Romero. Animações decorativas em SVG, com suporte a movimento reduzido.</desc>
+  <defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101827"/><stop offset=".6" stop-color="#17213B"/><stop offset="1" stop-color="#102C37"/></linearGradient>
+  <radialGradient id="aura"><stop stop-color="#00E5C3" stop-opacity=".17"/><stop offset="1" stop-color="#00E5C3" stop-opacity="0"/></radialGradient>
+  <linearGradient id="accent"><stop stop-color="#00E5C3"/><stop offset="1" stop-color="#538BFF"/></linearGradient>
+  <linearGradient id="desktop" x2=".8" y2="1"><stop stop-color="#304964"/><stop offset="1" stop-color="#15273C"/></linearGradient>
+  <linearGradient id="shirt" x2="1" y2="1"><stop stop-color="#127E86"/><stop offset="1" stop-color="#12414F"/></linearGradient>
+  <linearGradient id="screen"><stop stop-color="#082031"/><stop offset="1" stop-color="#0A3541"/></linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#89AEE2" stroke-opacity=".06"/></pattern>
+<clipPath id="hero-clip"><rect x=".7" y=".7" width="518.6" height="638.6" rx="30"/></clipPath></defs>
+  <style>
+    text { font-family: 'Segoe UI',Arial,'Liberation Sans',sans-serif; }
+    .mono { font-family: 'Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace; }
+    
+  @keyframes hover { 0%,100% {transform:translateY(0)} 50% {transform:translateY(-7px)} }
+  @keyframes glow { 0%,100% {opacity:.4} 50% {opacity:1} }
+  @keyframes blink { 0%,44%,100% {opacity:1} 45%,80% {opacity:.12} }
+  @keyframes signal { 0% {stroke-dashoffset:160} 100% {stroke-dashoffset:0} }
+  .floating { animation:hover 6s ease-in-out infinite; }
+  .floating-late { animation:hover 7.5s ease-in-out -2s infinite; }
+  .glow { animation:glow 4s ease-in-out infinite; }
+  .cursor { animation:blink 1.25s step-end infinite; }
+  .signal { stroke-dasharray:12 68; animation:signal 8s linear infinite; }
+  @media (prefers-reduced-motion:reduce) {
+    .floating,.floating-late,.glow,.cursor,.signal {animation:none!important}
+  }
+
+  </style>
+  <g clip-path="url(#hero-clip)"><rect x="0.7" y="0.7" width="518.6" height="638.6" rx="30" fill="url(#bg)" stroke="#29364E" /><rect x="1" y="1" width="518" height="638" rx="30" fill="url(#grid)"/><ellipse cx="375" cy="500" rx="300" ry="240" fill="url(#aura)"/><rect x="34" y="28" width="42" height="32" rx="10" fill="#1C3448" stroke="#34556D" /><text x="55" y="50" font-size="14" font-weight="700" fill="#00E5C3" text-anchor="middle">JV</text><text x="89" y="49" font-size="15" font-weight="400" fill="#B3C0D5" class="mono">@joaovromero</text><circle cx="478" cy="44" r="4" fill="#00E5C3" class="glow"/><text x="34" y="133" font-size="52" font-weight="700" fill="#F2F6FC" letter-spacing="-1.7">João Victor</text><text x="34" y="192" font-size="52" font-weight="700" fill="#F2F6FC" letter-spacing="-1.7">Gobi Romero</text><text x="34" y="236" font-size="24" font-weight="500" fill="#00E5C3" >Desenvolvedor FullStack</text><text x="34" y="276" font-size="19" font-weight="400" fill="#B3C0D5" >Tecnologia · Aprendizado contínuo</text><g transform="translate(78 294) scale(.89)">
+    <ellipse cx="211" cy="292" rx="181" ry="40" fill="#080F1C" opacity=".48"/>
+    <path d="M9 234L230 126L402 210L180 321Z" fill="url(#desktop)" stroke="#4C7185" stroke-width="1.2"/>
+    <path d="M9 234L180 321L402 210V220L180 332L9 245Z" fill="#102638"/>
+    <path d="M25 254V296M181 336V367M388 228V270" stroke="#223C52" stroke-width="9" stroke-linecap="round"/>
+    <path d="M29 235L180 311L382 211" fill="none" stroke="#00E5C3" stroke-opacity=".32"/>
+    <path d="M122 188V225L144 236L163 226L143 216V178" fill="#27445A" stroke="#446077"/>
+    <path d="M242 124V159L264 170L283 160L263 150V114" fill="#27445A" stroke="#446077"/>
+    <path d="M48 118L177 55L184 59V170L55 234L48 230Z" fill="#020E19" stroke="#345772"/>
+    <g transform="matrix(1 -.49 0 1 55 124)">
+      <rect width="122" height="104" rx="3" fill="url(#screen)" stroke="#216575"/>
+      <rect x="4" y="5" width="114" height="12" rx="2" fill="#123B4C"/>
+      <circle cx="10" cy="11" r="2" fill="#00E5C3"/><circle cx="17" cy="11" r="2" fill="#538BFF"/><circle cx="24" cy="11" r="2" fill="#A99FFF"/>
+      <path d="M31 22V97" stroke="#254557"/>
+      <g stroke-linecap="round" stroke-width="2.8">
+        <path d="M7 27H23M7 35H18M7 44H21M7 53H16M7 62H23M7 71H18" stroke="#347082"/>
+        <path d="M39 27H64M47 37H81M47 57H93M39 87H62" stroke="#00C8B6"/>
+        <path d="M47 47H74M55 67H77M47 77H99" stroke="#538BFF"/>
+        <path d="M70 27H95M87 37H109M81 47H101M82 67H108" stroke="#8293AE"/>
+      </g>
+      <rect class="cursor" x="69" y="83" width="3" height="7" fill="#00E5C3"/>
+      <rect class="glow" x="40" y="94" width="68" height="2" rx="1" fill="#00E5C3" opacity=".5"/>
+    </g>
+    <path d="M186 53L305 -5L312 -1V110L193 169L186 165Z" fill="#020E19" stroke="#345772"/>
+    <g transform="matrix(1 -.49 0 1 194 59)">
+      <rect width="111" height="104" rx="3" fill="url(#screen)" stroke="#216575"/>
+      <rect x="4" y="5" width="103" height="12" rx="2" fill="#123B4C"/>
+      <circle cx="11" cy="11" r="2" fill="#00E5C3"/><circle cx="18" cy="11" r="2" fill="#538BFF"/>
+      <rect x="8" y="24" width="40" height="31" rx="3" fill="#143E52"/>
+      <path d="M14 46L21 38L27 42L36 31L41 36" fill="none" stroke="#00E5C3" stroke-width="2"/>
+      <rect x="55" y="24" width="48" height="31" rx="3" fill="#143E52"/>
+      <path d="M63 48V41M72 48V35M81 48V38M90 48V30" stroke="#538BFF" stroke-width="5"/>
+      <circle cx="30" cy="78" r="16" stroke="#24516B" stroke-width="7" fill="none"/>
+      <circle class="glow" cx="30" cy="78" r="16" stroke="#00E5C3" stroke-width="7" stroke-dasharray="58 43" fill="none"/>
+      <path d="M57 67H98M57 78H87M57 89H95" stroke="#36657C" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g transform="matrix(1 -.49 .9 .46 152 241)">
+      <rect width="103" height="43" rx="4" fill="#071725" stroke="#416477" stroke-width="1.2"/>
+      <path d="M9 10H94M9 19H94M9 28H94M24 36H78" stroke="#397484" stroke-width="2"/>
+      <path d="M18 6V30M30 6V30M42 6V30M54 6V30M66 6V30M78 6V30M90 6V30" stroke="#244858"/>
+    </g>
+    <path d="M83 253L107 242L128 253L104 265Z" fill="#051B2A" stroke="#4D748B"/>
+    <path d="M89 253L107 245L121 253L103 261Z" fill="#15B7C7"/>
+    <path d="M337 229L361 216L382 226L358 241Z" fill="#061522"/>
+    <path d="M355 224Q363 218 369 224" stroke="#47718A" fill="none"/>
+    <path d="M322 253L338 315L304 334L278 324L284 284Z" fill="#111E33"/>
+    <path d="M304 320V365M304 353L271 368M305 353L337 368M304 353L295 375" stroke="#244153" stroke-width="6" stroke-linecap="round"/>
+    <path d="M272 187Q299 165 326 173Q348 187 359 249L333 277L272 287L244 257Z" fill="url(#shirt)" stroke="#297983" stroke-width="1.2"/>
+    <path d="M288 172L289 150L311 142L317 173Q303 185 288 172Z" fill="#C28C70"/>
+    <path d="M282 123Q286 103 307 105Q328 112 324 133L320 155Q308 170 294 155L287 145L278 142Z" fill="#DFAC87"/>
+    <path d="M281 130Q270 117 280 102Q290 87 308 94L319 90L319 99Q335 105 329 126L322 143L314 137L314 122Q303 126 295 115L286 133Z" fill="#071522"/>
+    <path d="M279 126Q275 95 300 94Q324 91 331 117" fill="none" stroke="#00ACB8" stroke-width="5"/>
+    <rect x="277" y="121" width="11" height="22" rx="5" fill="#0A273A" stroke="#16BCCC" stroke-width="2" transform="rotate(-9 282 132)"/>
+    <path d="M328 120V141Q329 151 317 154" fill="none" stroke="#318C9A" stroke-width="3"/>
+    <path d="M258 202L246 231L220 220L211 225L237 247Q247 254 256 244L273 214" fill="#D1A181"/>
+    <path d="M212 228L201 216M218 224L207 211M221 221L213 210" stroke="#D1A181" stroke-width="4" stroke-linecap="round"/>
+    <path d="M333 196L349 214L359 223L349 230L333 220L318 212Z" fill="#D1A181"/>
+    <path d="M255 196L251 216L271 224L280 204Z" fill="#147682"/>
+    <path d="M322 187L340 206L326 218L310 206Z" fill="#155E6B"/>
+    <path d="M308 231L349 211Q363 207 371 223L382 274Q383 287 370 294L329 312Q315 316 310 300L297 252Q294 238 308 231Z" fill="#102A3D" stroke="#385A70" stroke-width="1.5"/>
+    <path d="M314 241L353 222M320 302L370 280" stroke="#1E495D" stroke-width="2"/>
+    <g transform="translate(335 51)"><g class="floating"><rect x="0" y="0" width="66" height="49" rx="13" fill="#17394A" stroke="#286075" /><text x="33" y="31" font-size="21" font-weight="600" fill="#00E5C3" text-anchor="middle" class="mono">&lt;/&gt;</text></g></g><g transform="translate(11 58)"><g class="floating-late"><rect x="0" y="0" width="60" height="38" rx="11" fill="#1A2744" stroke="#34466D" /><text x="30" y="25" font-size="19" font-weight="600" fill="#9CB8FF" text-anchor="middle" class="mono">{ }</text></g></g></g></g>
+</svg>

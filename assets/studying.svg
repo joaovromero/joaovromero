@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="234" viewBox="0 0 1000 234" role="img" aria-labelledby="title desc">
+  <title id="title">Estudos: Ciências da Computação, Desenvolvimento Web, Desenvolvimento FullStack, Lógica e Fundamentos de Programação, Boas Práticas de Desenvolvimento, Novas Tecnologias</title>
+  <desc id="desc">Design do perfil de João Victor Gobi Romero. Animações decorativas em SVG, com suporte a movimento reduzido.</desc>
+  <defs></defs>
+  <style>
+    text { font-family: 'Segoe UI',Arial,'Liberation Sans',sans-serif; }
+    .mono { font-family: 'Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace; }
+    
+  @keyframes hover { 0%,100% {transform:translateY(0)} 50% {transform:translateY(-7px)} }
+  @keyframes glow { 0%,100% {opacity:.4} 50% {opacity:1} }
+  @keyframes blink { 0%,44%,100% {opacity:1} 45%,80% {opacity:.12} }
+  @keyframes signal { 0% {stroke-dashoffset:160} 100% {stroke-dashoffset:0} }
+  .floating { animation:hover 6s ease-in-out infinite; }
+  .floating-late { animation:hover 7.5s ease-in-out -2s infinite; }
+  .glow { animation:glow 4s ease-in-out infinite; }
+  .cursor { animation:blink 1.25s step-end infinite; }
+  .signal { stroke-dasharray:12 68; animation:signal 8s linear infinite; }
+  @media (prefers-reduced-motion:reduce) {
+    .floating,.floating-late,.glow,.cursor,.signal {animation:none!important}
+  }
+
+      @keyframes topic { 0%,16.65% {opacity:1} 16.6667%,100% {opacity:0} }
+      @keyframes type { 0% {clip-path:inset(0 100% 0 0)} 45%,87% {clip-path:inset(0 0 0 0)} 100% {clip-path:inset(0 100% 0 0)} }
+      @keyframes progress {from {stroke-dashoffset:1} to {stroke-dashoffset:0}}
+      .topic {opacity:0;animation:topic 30s linear infinite}
+      .topic-0 {opacity:1}
+      .typing {clip-path:inset(0 0 0 0);transform-box:fill-box;animation:type 5s steps(36,end) infinite}
+      .progress {stroke-dasharray:900;animation:glow 5s ease-in-out infinite}
+      @media (prefers-reduced-motion:reduce) {
+        .topic,.typing,.progress {animation:none!important}
+        .topic {opacity:0} .topic-0 {opacity:1}
+        .typing {clip-path:none}
+      }
+    .topic-1 {animation-delay:-25s}
+.topic-2 {animation-delay:-20s}
+.topic-3 {animation-delay:-15s}
+.topic-4 {animation-delay:-10s}
+.topic-5 {animation-delay:-5s}
+
+  </style>
+  <rect x="0.7" y="0.7" width="998.6" height="232.6" rx="26" fill="#101827" stroke="#29364E" /><text x="30" y="40" font-size="14" font-weight="600" fill="#00E5C3" letter-spacing="2" class="mono">03 / EM APRENDIZADO</text><text x="30" y="79" font-size="29" font-weight="600" fill="#F2F6FC" letter-spacing="-.7">Atualmente estudando</text><rect x="25" y="101" width="950" height="111" rx="18" fill="#0C1423" stroke="#2B3B54" /><circle cx="44" cy="120" r="3" fill="#F19E99"/><circle cx="57" cy="120" r="3" fill="#E8C783"/><circle cx="70" cy="120" r="3" fill="#72DCC7"/><text x="955" y="124" font-size="12" font-weight="400" fill="#7E94B2" text-anchor="end" class="mono">learning.md</text><text x="44" y="169" font-size="30" font-weight="600" fill="#00E5C3" class="mono">›</text><g class="topic topic-0"><g class="typing"><text x="75" y="168" font-size="29" font-weight="400" fill="#CEFFF4" class="mono">Ciências da Computação</text></g></g><g class="topic topic-1"><g class="typing"><text x="75" y="168" font-size="29" font-weight="400" fill="#CEFFF4" class="mono">Desenvolvimento Web</text></g></g><g class="topic topic-2"><g class="typing"><text x="75" y="168" font-size="29" font-weight="400" fill="#CEFFF4" class="mono">Desenvolvimento FullStack</text></g></g><g class="topic topic-3"><g class="typing"><text x="75" y="168" font-size="29" font-weight="400" fill="#CEFFF4" class="mono">Lógica e Fundamentos de Programação</text></g></g><g class="topic topic-4"><g class="typing"><text x="75" y="168" font-size="29" font-weight="400" fill="#CEFFF4" class="mono">Boas Práticas de Desenvolvimento</text></g></g><g class="topic topic-5"><g class="typing"><text x="75" y="168" font-size="29" font-weight="400" fill="#CEFFF4" class="mono">Novas Tecnologias</text></g></g><rect x="943" y="149" width="3" height="24" fill="#00E5C3" class="cursor"/><path d="M44 191H956" stroke="#26364D" stroke-width="2"/><path d="M44 191H956" stroke="#00E5C3" stroke-width="2" class="progress"/>
+</svg>
